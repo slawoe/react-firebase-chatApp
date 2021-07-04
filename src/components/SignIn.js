@@ -9,8 +9,12 @@ function SignIn() {
     auth.signInWithPopup(provider);
   }
   return (
-    <div>
-      <Button onClick={signInWithGoogle}>Sign In With Google</Button>
+    <div className="centerContainer">
+      <div className="signInContainer">
+        <Button className="signInButton" onClick={signInWithGoogle}>
+          Sign In With Google
+        </Button>
+      </div>
     </div>
   );
 }
