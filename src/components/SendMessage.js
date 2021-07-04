@@ -31,7 +31,7 @@ function SendMessage({ scroll }) {
             placeholder="Message..."
           />
           <Button className="submitButton" type="submit">
-            Send Message
+            SEND
           </Button>
         </div>
       </form>
