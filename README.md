@@ -1,5 +1,17 @@
 # react-firebase-chatApp
 
+IMPORTANT: API KEY and rest of your own firebase initialization needed if you want to run the app by yourself.
+
+##### Screenshots
+
+Login via Google
+![Login via Google](./screenshots/loginviagoogle.png)
+
+ChatApp
+![Chat App after login](./screenshots/chatapp.png)
+
+---
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
