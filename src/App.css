@@ -1,1 +1,145 @@
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 
+body {
+  margin: 0;
+  background: rgb(136, 170, 186);
+}
+
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.signInContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-color: aliceblue;
+  height: 10vh;
+  border-radius: 50px;
+}
+
+.signOutContainer {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #fafafa;
+  border-bottom: solid 1px lightgray;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  margin: 110px 0;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 20px 10px 0 20px;
+  border-radius: 3000px;
+  box-shadow: 0 0 20px rgb(45, 44, 44);
+}
+
+img {
+  margin-top: -20px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+p {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  overflow-wrap: break-word;
+}
+
+.sent {
+  flex-direction: row-reverse;
+  background-color: rgb(103, 103, 193);
+  color: white;
+  border-top-right-radius: 1000px;
+  padding: 20px 20px 0 10px;
+  text-align: end;
+  float: right;
+}
+
+.received {
+  background-color: #9ebcad;
+  border-top-left-radius: 1000px;
+  float: left;
+}
+
+.sendMessage {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  justify-content: space-between;
+  display: flex;
+  width: 96%;
+  border-top: 1px solid lightgray;
+  padding: 2%;
+  background-color: rgba(250, 250, 250, 0.9);
+}
+
+.messageInput {
+  width: 75%;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.submitButton {
+  width: 15%;
+  max-width: 200px;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+@media (max-width: 775px) {
+  p {
+    font-size: 20px;
+  }
+  img {
+    height: 35px;
+    margin-top: -10px;
+  }
+  .sent {
+    padding: 10px 10px 0;
+  }
+  .received {
+    padding: 10px 10px 0;
+  }
+  .messageInput {
+    font-size: 12px;
+  }
+  .submitButton {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  p {
+    font-size: 15px;
+  }
+  img {
+    height: 30px;
+    margin-top: -7px;
+  }
+  .sent {
+    padding: 7px 7px 0;
+  }
+  .received {
+    padding: 7px 7px 0;
+  }
+}
