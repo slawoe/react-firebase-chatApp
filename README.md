@@ -17,7 +17,7 @@ This app is actaully not deployed
 
 ## 📲 Design and layout infos
 
-Designed for web & mobile
+Designed for desktop & mobile
 
 ## 🔧 Development
 
