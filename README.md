@@ -33,5 +33,5 @@ Since there is a postinstall, the system automatically searches the client folde
 
 ### 📜 .env
 
-You nedd to initialize your own firebase and an firebase API Key.
+You need to initialize your own firebase and an firebase API Key.
 An example .env is already included.
